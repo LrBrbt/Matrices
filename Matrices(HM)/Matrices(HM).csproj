@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Matrices_HM_</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="коте.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArrayMatrix\ArrayMatrix.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="коте.png" />
+  </ItemGroup>
+
+</Project>

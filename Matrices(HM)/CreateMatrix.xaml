@@ -1,0 +1,13 @@
+﻿<Window x:Class="Matrices_HM_.CreateMatrix"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Matrices_HM_"
+        mc:Ignorable="d"
+        Title="CreateMatrix" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="SizeMatrixTXT" Margin="0,0,0,159"/>
+        <Button x:Name="CreateBTN" Margin="0,328,0,0" Content="Создать" Click="CreateBTN_Click" />
+    </Grid>
+</Window>
